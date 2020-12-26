@@ -1,0 +1,20 @@
+{
+  "name": "typed-react-package-starter",
+  "version": "0.0.1",
+  "repository": "https://github.com/lukasbach/typed-react-package-starter",
+  "author": "Lukas Bach",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "lerna run start --parallel --npm-client=yarn",
+    "build": "lerna run build --npm-client=yarn",
+    "storybook": "lerna run storybook --parallel --npm-client=yarn",
+    "build-storybook": "lerna run build-storybook --parallel --npm-client=yarn"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

@@ -1,0 +1,3 @@
+/packages/*/out
+.idea
+node_modules
