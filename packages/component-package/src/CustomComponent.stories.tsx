@@ -22,3 +22,9 @@ CustomComponentWithNegativeValue.args = {
   title: 'Example title',
   value: -42
 } as CustomComponentProps;
+
+export const CustomComponentWithZeroValue = Template.bind({});
+CustomComponentWithZeroValue.args = {
+  title: 'Example title',
+  value: 0
+} as CustomComponentProps;
