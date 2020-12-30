@@ -1,11 +1,24 @@
 import React from 'react';
 import {Meta, storiesOf} from '@storybook/react';
-import { CustomComponent } from '.';
+import { CustomComponent, CustomComponentProps } from '.';
 
 export default {
   title: 'CustomComponent',
   component: CustomComponent,
 } as Meta;
 
-storiesOf('CustomComponent Story', module)
-  .add('CustomComponent', () => <CustomComponent title="Title" value={42} />)
+const Template = (args: CustomComponentProps) => (
+  <CustomComponent {...args} />
+);
+
+export const CustomComponentDefault = Template.bind({});
+CustomComponentDefault.args = {
+  title: 'Example title',
+  value: 42
+} as CustomComponentProps;
+
+export const CustomComponentWithNegativeValue = Template.bind({});
+CustomComponentWithNegativeValue.args = {
+  title: 'Example title',
+  value: -42
+} as CustomComponentProps;

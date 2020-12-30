@@ -11,7 +11,7 @@ export interface CustomComponentProps {
 export const CustomComponent: React.FC<CustomComponentProps> = props => {
   return (
     <div>
-      <h1>{ props.title }</h1>
+      <h1 data-testid="title">{ props.title }</h1>
       <p>Value is { props.value }</p>
     </div>
   );
