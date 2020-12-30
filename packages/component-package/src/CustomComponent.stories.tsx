@@ -1,6 +1,6 @@
 import React from 'react';
 import {Meta, storiesOf} from '@storybook/react';
-import CustomComponent from 'component-package';
+import { CustomComponent } from '.';
 
 export default {
   title: 'CustomComponent',

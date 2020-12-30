@@ -1,3 +1,1 @@
-import { CustomComponent } from './CustomComponent';
-
-export default CustomComponent;
+export * from './CustomComponent';

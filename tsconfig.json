@@ -1,10 +1,10 @@
 {
-  "extends": "../../config/tsconfig.json",
+  "extends": "./config/tsconfig.json",
   "compilerOptions": {
     "outDir": "out",
     "module": "CommonJS"
   },
   "include": [
-    "src"
+    "packages/**/src"
   ]
 }
