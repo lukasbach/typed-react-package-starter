@@ -1,6 +1,7 @@
 # Typed React Package Starter
 
 ![Testing](https://github.com/lukasbach/typed-react-package-starter/workflows/Testing/badge.svg)
+![Pretty](https://github.com/lukasbach/typed-react-package-starter/workflows/Pretty/badge.svg)
 ![Storybook Deployment](https://github.com/lukasbach/typed-react-package-starter/workflows/Storybook%20Deployment/badge.svg)
 
 A template for repositories of custom React components and hooks, properly typed with Typescript, divided
