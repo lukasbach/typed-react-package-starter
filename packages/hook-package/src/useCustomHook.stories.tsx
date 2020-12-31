@@ -1,5 +1,5 @@
 import React from 'react';
-import {Meta, storiesOf} from '@storybook/react';
+import { Meta } from '@storybook/react';
 import { useCustomHook } from '.';
 
 export default {
@@ -16,4 +16,4 @@ export const HookExample: React.FC = () => {
       <button onClick={decrease}>Decrease</button>
     </div>
   );
-}
+};

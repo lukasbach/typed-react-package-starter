@@ -10,14 +10,12 @@ Description of the component
 <Canvas>
   <Story name="Component Example">
     <CustomComponent title="Title" value={42} />
-   </Story>
+  </Story>
 </Canvas>
 
 <Canvas>
   <Story name="Component Example 2">
-    <div>
-      Yo!
-    </div>
+    <div>Yo!</div>
   </Story>
 </Canvas>
 
@@ -26,8 +24,7 @@ Description of the component
 <ArgsTable of={CustomComponent} />
 
 ## Playground
-<Story name="Playground">
-  {args => <CustomComponent {...args} />}
-</Story>
+
+<Story name="Playground">{args => <CustomComponent {...args} />}</Story>
 
 <ArgsTable story="Playground" />

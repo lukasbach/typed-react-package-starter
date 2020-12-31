@@ -1,5 +1,5 @@
 import React from 'react';
-import {Meta, storiesOf} from '@storybook/react';
+import { Meta } from '@storybook/react';
 import { CustomComponent, CustomComponentProps } from '.';
 
 export default {
@@ -7,24 +7,22 @@ export default {
   component: CustomComponent,
 } as Meta;
 
-const Template = (args: CustomComponentProps) => (
-  <CustomComponent {...args} />
-);
+const Template = (args: CustomComponentProps) => <CustomComponent {...args} />;
 
 export const CustomComponentDefault = Template.bind({});
 CustomComponentDefault.args = {
   title: 'Example title',
-  value: 42
+  value: 42,
 } as CustomComponentProps;
 
 export const CustomComponentWithNegativeValue = Template.bind({});
 CustomComponentWithNegativeValue.args = {
   title: 'Example title',
-  value: -42
+  value: -42,
 } as CustomComponentProps;
 
 export const CustomComponentWithZeroValue = Template.bind({});
 CustomComponentWithZeroValue.args = {
   title: 'Example title',
-  value: 0
+  value: 0,
 } as CustomComponentProps;
