@@ -1,5 +1,8 @@
 # Typed React Package Starter
 
+![Testing](https://github.com/lukasbach/typed-react-package-starter/workflows/Testing/badge.svg)
+![Storybook Deployment](https://github.com/lukasbach/typed-react-package-starter/workflows/Storybook%20Deployment/badge.svg)
+
 A template for repositories of custom React components and hooks, properly typed with Typescript, divided
 into sub packages with Lerna and visually testable with Storybook. ``packages/`` includes two examples for 
 subpackages that you can build upon: ``packages/component-package`` with a sample implementation of a custom 
@@ -9,7 +12,7 @@ and a storybook story.
 
 It also automatically deploys the storybook to GitHub Pages. You can view the default storybook here:
 
-https://lukasbach.github.io/typed-react-package-starter/index.html
+https://lukasbach.github.io/typed-react-package-starter
 
 ## Setup
 
