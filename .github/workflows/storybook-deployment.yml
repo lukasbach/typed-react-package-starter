@@ -1,6 +1,5 @@
 name: Storybook Deployment
-on: 
-  push
+on: push
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
