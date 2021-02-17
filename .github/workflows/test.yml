@@ -11,4 +11,6 @@ jobs:
       - name: Install and Test 🔧
         run: | # Install npm packages and run tests
           yarn
+          npx lerna bootstrap
+          yarn build
           yarn test
